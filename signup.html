@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Signin Template Bootstrap v5.2</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    
+    <!-- Custom styles for this template -->
+    <!-- ignore public folder express would do that -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+   
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="logo">
+            <!-- Expresss is going to navigate to our public folder for us -->
+            <img class="" src="images/eniola's image.png" alt="">
+        </div>
+        <div class="text-center name">
+            Eniola's NewsLetter
+        </div>
+        <form class="p-3 mt-3" action="/signup" method="post">
+            <div class="form-field d-flex align-items-center">
+                <!-- <span class="far fa-user"></span> -->
+                <input type="text" name="fName" id="userName" placeholder="First Name:" required autofocus>
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <!-- <span class="far fa-user"></span> -->
+                <input type="text" name="lName" id="userName" placeholder="Last Name:" required>
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <!-- <span class="fa solid fa-envelope"></span> -->
+                <input type="email" name="email" id="pwd" placeholder="Email: " required>
+            </div>
+            <button type="submit" class="btn mt-3">Sign up</button>
+        </form>
+        <div class="text-center fs-6">
+            <a href="#">Contact Developer:  </a>
+            <a href="https://web.facebook.com/eniola.ademola.1610/" class="social-icon" target="_blank"><i
+                    class="social-icon fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/_daveworld" class="social-icon" target="_blank"><i
+                    class="social-icon fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_daveworld" class="social-icon" target="_blank"><i
+                    class="social-icon fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
