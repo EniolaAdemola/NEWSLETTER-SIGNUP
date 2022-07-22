@@ -1,0 +1,3 @@
+# Ignore the secrete file that contains API key and ListID
+
+./secrete.js

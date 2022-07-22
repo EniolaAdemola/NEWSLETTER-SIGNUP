@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("node:https");
+const secrete = require("./secrete")
 
 const app = express();
 app.use(bodyParser.json());
@@ -37,11 +38,11 @@ app.post("/signup", (req, res) => {
 	const jsonData = JSON.stringify(data);
 	console.log(jsonData);
 
-	const url = "https://us14.api.mailchimp.com/3.0/lists/723c399775";
+	const url = "https://us14.api.mailchimp.com/3.0/lists/"+secrete.listID;
 
 	const options = {
 		method: "POST",
-		auth: "Eniola:d25739b60836e5b32e079a8c078f5aae-us14",
+		auth: "Eniola:"+secrete.apiKey,
 	};
 
 	const request = https.request(url, options, (response) => {
@@ -49,7 +50,7 @@ app.post("/signup", (req, res) => {
 			// Succes Sign in
 			res.sendFile(__dirname + "/success.html");
 		} else {
-			//
+			// send failure page
 			res.sendFile(__dirname + "/failure.html");
 		}
 
