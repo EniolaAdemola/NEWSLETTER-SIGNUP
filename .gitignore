@@ -1,3 +1,5 @@
 # Ignore the secrete file that contains API key and ListID
+.secrete.js
 
-./secrete.js
+# ignore node modules
+/node_modules
