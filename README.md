@@ -3,8 +3,7 @@
 ## About The Project
 
 
-### A news letter where user can submit their name and mail to get daily news updates. To view the website [click here](https://radiant-badlands-28801.herokuapp.com/signup)
-
+### A news letter where user can submit their name and mail to get daily news updates. To view the website [click here](https://eniola-newsletter.herokuapp.com/signup)
 Here's some cool features of the Project:
 * A field where user can input their credentials eg name and email(this field is compulsory)
 * A Sign Up button that get posted to our mailchimp account when a user click on it
