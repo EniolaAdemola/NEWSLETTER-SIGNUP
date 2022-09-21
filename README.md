@@ -3,9 +3,9 @@
 ## About The Project
 
 
-### A news letter where user can submit their name and mail to get daily news updates. To view the website [click here](https://eniola-newsletter.herokuapp.com/signup)
+### A newsletter where user can submit their name and mail to get daily news updates. To view the website [click here](https://eniola-newsletter.herokuapp.com/signup)
 Here's some cool features of the Project:
-* A field where user can input their credentials eg name and email(this field is compulsory)
+* A field where user can input their credentials eg name and email
 * A Sign Up button that get posted to our mailchimp account when a user click on it
 * A success page shows up after user has successfully signed up
 
@@ -28,6 +28,8 @@ Here's some cool features of the Project:
 ### Failure page: Should incase something goes wrong!
 ![failure page](https://user-images.githubusercontent.com/107508295/180503698-e55ca813-8106-43e0-ac6e-189f61d0fef2.PNG)
 
+This project is basically about me learning about how to handle newsletter using NodeJS, ExpressJS, Mailchimp and many more i hope you also find it interesting
+
 Thanks! if you feel there's anything that can be done to improve the project kindly reach out to me below
 
 <!-- CONTACT -->
@@ -35,4 +37,4 @@ Thanks! if you feel there's anything that can be done to improve the project kin
 
 Eniola Ademola - [@tweet me](https://twitter.com/_daveworld) - it.eniolaademola@gmail.com
 
-Project Link: [https://github.com/EniolaAdemola/NEWSLETTER-SIGNUP](https://github.com/EniolaAdemola/NEWSLETTER-SIGNUP)
+Github Repo: [https://github.com/EniolaAdemola/NEWSLETTER-SIGNUP](https://github.com/EniolaAdemola/NEWSLETTER-SIGNUP)
